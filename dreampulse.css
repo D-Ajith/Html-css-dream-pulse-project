@@ -270,15 +270,12 @@ i {
     background-color: white;
 }
 
-.talktousright input,
-textarea,
-button {
+.talktousright input,textarea,button {
     border: none;
     border-bottom: 2px solid gray;
 }
 
-.talktousright input:focus,
-textarea:focus {
+.talktousright input:focus,textarea:focus {
     border: none;
     border-bottom: 2px solid rgb(0, 102, 153);
 }
@@ -311,6 +308,9 @@ textarea:focus {
         margin-left: 0;
         width: 100%;
     }
+    .iconscenter i{
+        border-radius:50%;
+    }
 
     .introduction {
         margin: 5%;
@@ -329,8 +329,7 @@ textarea:focus {
         line-height: 1rem;
     }
 
-    .divide,
-    .talktous {
+    .divide,.talktous {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -338,9 +337,7 @@ textarea:focus {
         padding: 5%;
     }
 
-    .divide p,
-    .ourclients p,
-    .talktous p {
+    .divide p,.ourclients p,.talktous p {
         font-size: medium;
         line-height: 1.5rem;
         width: 100%;
@@ -400,7 +397,9 @@ textarea:focus {
         margin-left: 0;
         width: 100%;
     }
-
+    .iconscenter i{
+        border-radius:50%;
+    }
     .introduction {
         margin: 5%;
         height: 90%;
@@ -418,8 +417,7 @@ textarea:focus {
         line-height: 1rem;
     }
 
-    .divide,
-    .talktous {
+    .divide,.talktous {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -427,9 +425,7 @@ textarea:focus {
         padding: 5%;
     }
 
-    .divide p,
-    .ourclients p,
-    .talktous p {
+    .divide p,.ourclients p,.talktous p {
         font-size: 1.2rem;
         line-height: 2rem;
         width: 100%;
@@ -506,8 +502,7 @@ textarea:focus {
         line-height: 1rem;
     }
 
-    .divide,
-    .talktous {
+    .divide,.talktous {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -515,9 +510,7 @@ textarea:focus {
         padding: 5%;
     }
 
-    .divide p,
-    .ourclients p,
-    .talktous p {
+    .divide p,.ourclients p,.talktous p {
         font-size: 1.3rem;
         line-height: 2rem;
         width: 100%;

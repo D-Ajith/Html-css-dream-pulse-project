@@ -597,7 +597,7 @@ i {
     }
 }
 
-@media (min-width:991px) and (max-width:1260px) {
+@media (min-width:991px) and (max-width:1900px) {
     .divide {
         flex-direction: column;
         justify-content: center;

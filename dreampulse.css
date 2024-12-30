@@ -339,6 +339,10 @@ i {
     footer{
         line-height: 0%;
     }
+    .iconscenter>a i:hover{
+        background-color: skyblue;
+        transform:scale(1.2);
+    }
      .ham-icon{
         display:block;
         position:absolute;
@@ -457,6 +461,10 @@ i {
     .iconscenter>a i{
         border-radius:50%;
     }
+    .iconscenter>a i:hover{
+        background-color: skyblue;
+        transform:scale(1.2);
+    }
     .introduction {
         margin: 5%;
         height: 90%;
@@ -536,7 +544,10 @@ i {
         text-align: center;
         padding: 20px;
     }
-
+    .iconscenter>a i:hover{
+        background-color: skyblue;
+        transform:scale(1.2);
+    }
     .child2 {
         margin-left: 0;
         width: 100%;
@@ -621,7 +632,10 @@ i {
         margin-top: 15%;
         width: 90%;
     }
-
+    .iconscenter>a i:hover{
+        background-color: skyblue;
+        transform:scale(1.2);
+    }
     .aboutusleft {
         width: 90%;
     }
@@ -635,5 +649,9 @@ i {
         background-image:("https://templatemo.com/templates/templatemo_536_dream_pulse/img/dream-pulse-header.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat;
+    }
+    .iconscenter>a i:hover{
+        background-color: skyblue;
+        transform:scale(1.2);
     }
 }

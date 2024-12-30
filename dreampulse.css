@@ -12,6 +12,9 @@ html {
     display: flex;
     width: 100%;
     height: 100%;
+    background-image:("https://templatemo.com/templates/templatemo_536_dream_pulse/img/dream-pulse-header.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     
 }
 .child1 {

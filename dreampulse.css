@@ -634,22 +634,24 @@ i {
         background-repeat: no-repeat;
     }
     .divide {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15%;
-        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 20%;
+        padding-bottom: 10%;
     }
     .iconscenter>a i:hover{
         background-color: skyblue;
         transform:scale(1.2);
     }
     .aboutusleft {
-        width: 90%;
+        width:35%;
+        padding: 20px;
     }
 
     .companyprofileright {
-        width: 90%;
+        width: 35%;
+        padding: 15px;
     }
 }
 @media (min-width:1901px) and (max-width:3000px){
